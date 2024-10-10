@@ -12,9 +12,9 @@ print (x1, '- номер 1-ого уровня; ',x2, '- номер 2-ого и 
 print ()
 x=int(input('Введите значение X '))
 if math.fabs(x)<1:
-    y=0
-else:
     y=x**2-1
+else:
+    y=0
 print (y)
     
 
